@@ -1,0 +1,144 @@
+  :root {
+  --rojo-grasa: #d00000;
+  --amarillo-grasa: #ffe500;
+  --amarillo-texto: #ffff00;
+  --negro: #000000;
+  --blanco: #ffffff;
+  --fondo-vino: #160707;
+  --texto-principal: #ffffff;
+  --texto-secundario: #ffff00;
+}
+
+body {
+  margin: 0;
+  background-color: var(--fondo-vino);
+  color: var(--texto-principal);
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: var(--negro);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 20%;
+}
+
+
+.main {
+     display: flex;
+}
+
+.left_column{
+    width: 15%;
+    padding: 1rem;
+    background-color: #000000;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: var(--amarillo-texto);
+  background-color: black;
+  font-size: 4rem;
+}
+p{
+    font-family: 'Anton', sans-serif;
+  color: var(--texto-principal);}
+h2 {
+  font-family: 'Anton', sans-serif;
+  color: var(--blanco);
+  font-size: 3rem;
+}
+
+h3{
+    font-family: 'Anton', sans-serif;
+    color: var(--amarillo-grasa);
+}
+h4 {
+  font-family: 'Anton', sans-serif;
+  color: var(--texto-secundario);
+  font-size: 3rem;
+}
+h5 {
+  font-family: 'Anton', sans-serif;
+  color: var(--rojo-grasa);
+  font-size: 3rem;
+}
+.nav{
+    font-family: 'Anton', sans-serif;
+    color: var(--amarillo-grasa);
+    font-size: 2rem;
+}
+.right_column{
+    width: 85%;
+    padding: 1rem;
+    background-color: var(--fondo-vino);
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.right_column p {
+      font-size: 1.2rem;
+      color: var(--texto-principal);
+ }
+ .logo{
+height: 220px;    
+ }
+.titulo {
+  text-align: left;
+  margin: 0;
+  margin-left: 1rem;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.DIOS {
+  font-family: 'Anton', sans-serif;
+  color: var(--amarillo-texto);
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.pregunta {
+  font-family: 'Anton', sans-serif;
+  color: var(--amarillo-texto);
+  font-size: 3rem;
+  font-weight: normal;
+    margin-left: 22%;
+
+}
+
+.contenido {
+  display: flex;
+  align-items: center; 
+  gap: 1rem; 
+}
+
+.contenido img {
+  max-width: 200px;
+  height: auto;
+}
+
+.contenido p {
+  color: var(--texto-principal); 
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+a.blanco:link{
+text-decoration: none;
+}
+
+iframe {
+  display: block;
+  margin: 2rem auto;
+  box-shadow: 0 0 10px var(--rojo-grasa);
+}
+.left_column a:hover {
+  text-decoration: underline;
+  color: var(--rojo-grasa); 
+}
